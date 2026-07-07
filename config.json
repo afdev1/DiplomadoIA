@@ -1,8 +1,8 @@
 {
-  "pdf_path": "/Users/orodriguez/PycharmProjects/DiplomadoIA/Anillos.pdf",
+  "pdf_path": "/Users/andres.deorcajo/Documents/Diplomado/DiplomadoIA/corpus.pdf",
 
   "deeplake": {
-    "dataset_path": "/Users/orodriguez/PycharmProjects/DiplomadoIA/deeplake_db/anillos",
+    "dataset_path": "/Users/andres.deorcajo/Documents/Diplomado/DiplomadoIA/DeepLake/corpus",
     "read_only": true,
     "overwrite": true
   },
@@ -25,7 +25,7 @@
 
   "llm": {
     "api_base": "https://openrouter.ai/api/v1",
-    "model_name": "meta-llama/llama-3.3-70b-instruct",
+    "model_name": "nvidia/nemotron-3-ultra-550b-a55b:free",
     "temperature": 0.7
   },
 
@@ -33,9 +33,9 @@
     "type": "summary",
     "enabled": true,
     "retain_across_sessions": false,
-    "summary_model": "meta-llama/llama-3.3-70b-instruct",
-    "max_summary_length": 2000
+    "summary_model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "max_summary_length": 5000
   },
 
-  "system_instruction": "Eres el fan mas experto en el señor de los anillos."
+  "system_instruction": "Eres el fan más experto en la historia de la IA."
 }
